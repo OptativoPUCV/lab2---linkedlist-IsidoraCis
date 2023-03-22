@@ -103,3 +103,8 @@ list.c:46:6: error: statement with no effect [-Werror=unused-value]
 cc1: all warnings being treated as errors
 Compilation failed
 198e014
+Wed 22 Mar 2023 11:17:38 AM UTC: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|0
+f3321d0
