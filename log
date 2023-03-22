@@ -80,3 +80,26 @@ Wed 22 Mar 2023 02:23:36 AM UTC:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 7374f03
+Wed 22 Mar 2023 11:17:19 AM UTC: 
+ list.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:
+list.c: In function ‘firstList’:
+list.c:40:8: error: expected ‘(’ before ‘list’
+   40 |     if list==NULL return NULL;
+      |        ^~~~
+      |        (
+list.c:40:8: error: statement with no effect [-Werror=unused-value]
+   40 |     if list==NULL return NULL;
+      |        ^~~~
+list.c: In function ‘nextList’:
+list.c:46:6: error: expected ‘(’ before ‘list’
+   46 |   if list==NULL return NULL;
+      |      ^~~~
+      |      (
+list.c:46:6: error: statement with no effect [-Werror=unused-value]
+   46 |   if list==NULL return NULL;
+      |      ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+198e014
