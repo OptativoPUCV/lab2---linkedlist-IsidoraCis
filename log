@@ -38,3 +38,30 @@ Wed 22 Mar 2023 02:18:22 AM UTC:
  tests:  1|5
 total_score: 10/70
 c1b7d0c
+Wed 22 Mar 2023 02:22:01 AM UTC: 
+ list.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+list.c:31:1: error: expected identifier or ‘(’ before numeric constant
+   31 | 2. Programe las funciones `void * firstList(List * list)` y `void * nextList(List * list)`.
+      | ^~
+list.c:31:27: error: stray ‘`’ in program
+   31 | 2. Programe las funciones `void * firstList(List * list)` y `void * nextList(List * list)`.
+      |                           ^
+list.c:31:57: error: stray ‘`’ in program
+   31 | 2. Programe las funciones `void * firstList(List * list)` y `void * nextList(List * list)`.
+      |                                                         ^
+list.c:31:61: error: stray ‘`’ in program
+   31 | 2. Programe las funciones `void * firstList(List * list)` y `void * nextList(List * list)`.
+      |                                                             ^
+list.c:31:90: error: stray ‘`’ in program
+   31 | 2. Programe las funciones `void * firstList(List * list)` y `void * nextList(List * list)`.
+      |                                                                                          ^
+list.c:32:62: error: stray ‘`’ in program
+   32 |    * La primera retorna el dato del primer nodo de la lista (`head`) y actualiza el current para que apunte a ese nodo.
+      |                                                              ^
+list.c:32:67: error: stray ‘`’ in program
+   32 |    * La primera retorna el dato del primer nodo de la lista (`head`) y actualiza el current para que apunte a ese nodo.
+      |                                                                   ^
+Compilation failed
+ce7f170
