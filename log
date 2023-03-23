@@ -169,3 +169,25 @@ Thu 23 Mar 2023 12:50:41 AM UTC:
  tests:  9|3
 total_score: 35/70
 9487898
+Thu 23 Mar 2023 12:54:26 AM UTC: 
+ list.c | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+In file included from test.c:5:
+list.c:83:1: error: expected identifier or ‘(’ before numeric constant
+   83 | 5. Programe la función `void pushCurrent(List * list, void* data)`, la cual agrega un dato a continuación del nodo apuntado por `list->current`.
+      | ^~
+list.c:83:25: error: stray ‘`’ in program
+   83 | 5. Programe la función `void pushCurrent(List * list, void* data)`, la cual agrega un dato a continuación del nodo apuntado por `list->current`.
+      |                        ^
+list.c:83:67: error: stray ‘`’ in program
+   83 | 5. Programe la función `void pushCurrent(List * list, void* data)`, la cual agrega un dato a continuación del nodo apuntado por `list->current`.
+      |                                                                  ^
+In file included from test.c:5:
+list.c:83:131: error: stray ‘`’ in program
+   83 | 5. Programe la función `void pushCurrent(List * list, void* data)`, la cual agrega un dato a continuación del nodo apuntado por `list->current`.
+      |                                                                                                                                 ^
+list.c:83:145: error: stray ‘`’ in program
+   83 | 5. Programe la función `void pushCurrent(List * list, void* data)`, la cual agrega un dato a continuación del nodo apuntado por `list->current`.
+      |                                                                                                                                               ^
+Compilation failed
+c6c50d1
