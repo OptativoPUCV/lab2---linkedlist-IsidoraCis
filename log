@@ -130,3 +130,22 @@ Thu 23 Mar 2023 12:44:05 AM UTC:
  tests:  9|3
 total_score: 35/70
 5e227a8
+Thu 23 Mar 2023 12:50:10 AM UTC: 
+ list.c | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+In file included from test.c:5:
+list.c: In function ‘pushFront’:
+list.c:68:4: error: ‘Nodo’ undeclared (first use in this function); did you mean ‘Node’?
+   68 |   *Nodo nuevo = createNode(data);
+      |    ^~~~
+      |    Node
+list.c:68:4: note: each undeclared identifier is reported only once for each function it appears in
+list.c:68:8: error: expected ‘;’ before ‘nuevo’
+   68 |   *Nodo nuevo = createNode(data);
+      |        ^~~~~~
+      |        ;
+list.c:71:18: error: ‘nuevo’ undeclared (first use in this function)
+   71 |     list->head = nuevo;
+      |                  ^~~~~
+Compilation failed
+a456810
