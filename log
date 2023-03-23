@@ -248,3 +248,49 @@ list.c:122:10: error: statement with no effect [-Werror=unused-value]
 cc1: all warnings being treated as errors
 Compilation failed
 757a76a
+Thu 23 Mar 2023 01:03:40 AM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c:109:1: error: expected identifier or ‘(’ before numeric constant
+  109 | 6. Programe la función `void* popCurrent(List * list)`, la cual elimina el nodo que está en la posición del current de la lista enlazada, y además retorna el **dato** del nodo eliminado.
+      | ^~
+list.c:109:25: error: stray ‘`’ in program
+  109 | 6. Programe la función `void* popCurrent(List * list)`, la cual elimina el nodo que está en la posición del current de la lista enlazada, y además retorna el **dato** del nodo eliminado.
+      |                        ^
+list.c:109:55: error: stray ‘`’ in program
+  109 | 6. Programe la función `void* popCurrent(List * list)`, la cual elimina el nodo que está en la posición del current de la lista enlazada, y además retorna el **dato** del nodo eliminado.
+      |                                                      ^
+In file included from test.c:5:
+list.c:112:15: error: stray ‘`’ in program
+  112 | Las funciones `pushBack`, `popFront` y `popBack` se pueden implementar usando `popCurrent` y `pushCurrent` (búsquelas en el código).
+      |               ^
+list.c:112:24: error: stray ‘`’ in program
+  112 | Las funciones `pushBack`, `popFront` y `popBack` se pueden implementar usando `popCurrent` y `pushCurrent` (búsquelas en el código).
+      |                        ^
+list.c:112:27: error: stray ‘`’ in program
+  112 | Las funciones `pushBack`, `popFront` y `popBack` se pueden implementar usando `popCurrent` y `pushCurrent` (búsquelas en el código).
+      |                           ^
+list.c:112:36: error: stray ‘`’ in program
+  112 | Las funciones `pushBack`, `popFront` y `popBack` se pueden implementar usando `popCurrent` y `pushCurrent` (búsquelas en el código).
+      |                                    ^
+list.c:112:40: error: stray ‘`’ in program
+  112 | Las funciones `pushBack`, `popFront` y `popBack` se pueden implementar usando `popCurrent` y `pushCurrent` (búsquelas en el código).
+      |                                        ^
+list.c:112:48: error: stray ‘`’ in program
+  112 | Las funciones `pushBack`, `popFront` y `popBack` se pueden implementar usando `popCurrent` y `pushCurrent` (búsquelas en el código).
+      |                                                ^
+list.c:112:79: error: stray ‘`’ in program
+  112 | Las funciones `pushBack`, `popFront` y `popBack` se pueden implementar usando `popCurrent` y `pushCurrent` (búsquelas en el código).
+      |                                                                               ^
+list.c:112:90: error: stray ‘`’ in program
+  112 | Las funciones `pushBack`, `popFront` y `popBack` se pueden implementar usando `popCurrent` y `pushCurrent` (búsquelas en el código).
+      |                                                                                          ^
+list.c:112:94: error: stray ‘`’ in program
+  112 | Las funciones `pushBack`, `popFront` y `popBack` se pueden implementar usando `popCurrent` y `pushCurrent` (búsquelas en el código).
+      |                                                                                              ^
+list.c:112:106: error: stray ‘`’ in program
+  112 | Las funciones `pushBack`, `popFront` y `popBack` se pueden implementar usando `popCurrent` y `pushCurrent` (búsquelas en el código).
+      |                                                                                                          ^
+Compilation failed
+f12492a
